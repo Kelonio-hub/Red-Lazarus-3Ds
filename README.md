@@ -20,10 +20,10 @@ No obstante, el proceso no instala el Movable ni de las APP Universales, teniend
 
 4. Archivos en SD: 
 - Archivo de ntrboot para conectar a la R4
-- Archivo boot.firm de Luma en sd/
+- Archivo boot.firm de Luma o Godmode9 en sd/
 - Archivo Godmode9.firm en sd/luma/payloads
 - Archivo Red Lazarus.gm9 en sd/gm9/scripts
-- Archivos Lazarus en sd/
+- Carpeta Lazarus en sd/
 
 Archivos dentro de la ruta sd/Lazarus: 
 - nand_hdr.bin
