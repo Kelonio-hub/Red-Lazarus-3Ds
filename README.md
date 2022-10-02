@@ -20,13 +20,13 @@ No obstante, el proceso no instala el Movable ni de las APP Universales, teniend
 - Archivo Godmode9.firm en sd/luma/payloads
 - Archivo Red Lazarus.gm9 en sd/gm9/scripts
 - Archivos Lazarus en sd/
-- Archivos dentro de la ruta sd/Lazarus: 
-nand_hdr.bin
-sighax_hdr_retail.bin
-twlmbr.bin
-twln.bin
-twlp.bin
-ctrtransfer_^.bin ^(o3ds/o2ds/n3ds/n2ds)^
+- *Archivos dentro de la ruta sd/Lazarus:* 
+- nand_hdr.bin
+- sighax_hdr_retail.bin
+- twlmbr.bin
+- twln.bin
+- twlp.bin
+- ctrtransfer_^.bin ^(o3ds/o2ds/n3ds/n2ds)^
 
 5. *Proceso del Script*
 ################# Proceso Red Lazarus #################
@@ -55,7 +55,9 @@ cp -w -n $[TWLP] S:/twlp.bin
 cp -w -n $[CTRNAND] S:/ctrnand_full.bin
 
 fixcmac 1:/dbs
+
 fixcmac 1:/data
+
 fixcmac 1:/private
 
 echo "Consola Revivida con Red Lazarus. #TeAmoKelonio"
