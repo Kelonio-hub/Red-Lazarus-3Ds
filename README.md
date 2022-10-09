@@ -1,4 +1,5 @@
 # Red-Lazarus-3Ds
+PARA LA REALIZACIÓN DEL PROCESO SE DEBE DE TENER UNA R4 FLASHEADA CON NTRBOOT. 
 
 1. Introducción:
 Red Lazarus es un Script .gm9 que tiene dos finalidades: 
