@@ -1,13 +1,19 @@
 # Red-Lazarus-3Ds
 
 1. Introducción:
+Red Lazarus es un Script .gm9 que tiene dos finalidades: 
+- Revivir consolas con la posibilidad de poder eliminar el CFW posteriormente.
+- Eliminar Lazarus en aquellas consolas que hubieran realizado dicho proceso, teniendo el CFW de forma permanente.
+Esta última finalidad es la que obliga al usuario a volver a brickear su consola, debido a que si el script se realiza en una consola funcional al intentar iniciar la consola lanzará error ARM11 [debido a que el Movable sigue enlazado, con quitar el Movable la consola ya inicia].
 
-Red Lazarus es un Script .gm9 que revive consolas de la marca Nintendo 3ds y 2ds (tanto modelo Old como New). 
-Su estrutura parte del script Lazarus de AnalogMan151, con la gran diferencia de que este proceso PERMITE ELIMINAR EL CFW SIN PROVOCAR UN NUEVO BRICK.  
-No obstante, el proceso no instala el Movable ni de las APP Universales, teniendo que realizar a futuro el proceso de CTRTransfer genérico. 
+Para otros problemas, siempre se intentará aplicar el respaldo NAND y el CtrTransfer. Siendo Lazarus y Red Lazarus, respectivamente, últimos recursos.   
+Además, aunque Red Lazarus permita la eliminación del CFW, su eliminación no resolverá ningún problema en las consolas. 
+No obstante, el proceso no instala el Movable ni de las APP Universales, teniendo que realizar a futuro si se requiere el proceso de CTRTransfer. 
 
+Por último, se detecta que tras realizar el script los juegos de cartucho 3Ds no son detectados [los de nds sí lo son]. Se soluciona Actualizando o Formateando la consola. 
 
 2. Créditos:
+- AnalogMan151, por crear Lazarus.
 - Angelpro09_xd, quien descubió la falla al quitar por error la SD en el proceso Lazarus.
 - Kelonio 3Ds, por reestructurar el script y darlo a conocer. 
 - Yakara Colombia, por los archivos donantes usuados durante las pruebas.
